@@ -12,6 +12,7 @@ class PinEntryTextField extends StatefulWidget {
   final isTextObscure;
   final inputStyle;
   final inputDecoration;
+  final showFieldAsBox;
 
   PinEntryTextField(
       {this.fields: 4,
@@ -21,8 +22,9 @@ class PinEntryTextField extends StatefulWidget {
         this.isTextObscure: false,
         this.inputStyle,
         this.inputDecoration,
+        this.showFieldAsBox : false
       })
-      : assert(fields > 0);
+      : assert(fields > 0 && onSubmit != null);
 
   @override
   State createState() {
@@ -75,7 +77,10 @@ class PinEntryTextFieldState extends State<PinEntryTextField> {
         textAlign: TextAlign.center,
         maxLength: 1,
         style: widget.inputStyle,
-        decoration: widget.inputDecoration,
+        decoration: widget.inputDecoration ? InputDecoration(
+          counterText: "",
+          border: widget.showFieldAsBox ? OutlineInputBorder(borderSide: BorderSide(width: 2.0)) : null
+        ) : null,
         focusNode: _focusNodes[i],
         obscureText: widget.isTextObscure,
         onChanged: (String str) {
