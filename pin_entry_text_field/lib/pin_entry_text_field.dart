@@ -51,7 +51,7 @@ class PinEntryTextFieldState extends State<PinEntryTextField> {
   void clearTextFields() {
     _textControllers.forEach(
             (TextEditingController tEditController) => tEditController.clear());
-    _pin.clear();
+    _pin.forEach((e) => e = "");
   }
 
   Widget buildTextField(int i, BuildContext context) {
