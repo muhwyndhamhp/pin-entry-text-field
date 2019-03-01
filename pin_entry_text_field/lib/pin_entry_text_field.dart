@@ -77,10 +77,10 @@ class PinEntryTextFieldState extends State<PinEntryTextField> {
         textAlign: TextAlign.center,
         maxLength: 1,
         style: widget.inputStyle,
-        decoration: widget.inputDecoration ? InputDecoration(
-          counterText: "",
-          border: widget.showFieldAsBox ? OutlineInputBorder(borderSide: BorderSide(width: 2.0)) : null
-        ) : null,
+        decoration: InputDecoration(
+            counterText: "",
+            border: widget.showFieldAsBox ? OutlineInputBorder(borderSide: BorderSide(width: 2.0)) : null
+        ),
         focusNode: _focusNodes[i],
         obscureText: widget.isTextObscure,
         onChanged: (String str) {

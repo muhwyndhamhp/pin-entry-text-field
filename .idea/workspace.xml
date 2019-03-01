@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c98af4d-4c70-42f9-a56c-bbf8034452bb" name="Default" comment="disable auto move to first focusable">
+    <list default="true" id="5c98af4d-4c70-42f9-a56c-bbf8034452bb" name="Default" comment="fix border issue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,15 +23,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dart" value="10" />
-          <entry key="txt" value="65" />
+          <entry key="dart" value="188" />
+          <entry key="txt" value="89" />
           <entry key="yaml" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dart" value="10" />
-          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="Dart" value="188" />
+          <entry key="PLAIN_TEXT" value="89" />
           <entry key="YAML" value="27" />
         </counts>
       </usages-collector>
@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pin_entry_text_field/lib/pin_entry_text_field.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="87" column="41" lean-forward="true" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+            <state relative-caret-position="132">
+              <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -645,7 +645,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551433898740</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="disable auto move to first focusable part 2">
+      <created>1551434091899</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551434091899</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix border issue">
+      <created>1551434548595</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551434548595</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -704,7 +718,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="disable autoclear pin entry" />
     <MESSAGE value="disable auto move to first focusable" />
-    <option name="LAST_COMMIT_MESSAGE" value="disable auto move to first focusable" />
+    <MESSAGE value="disable auto move to first focusable part 2" />
+    <MESSAGE value="fix border issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix border issue" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pin_entry_text_field/test/pin_entry_text_field_test.dart" />
@@ -746,8 +762,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pin_entry_text_field/lib/pin_entry_text_field.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="87" column="41" lean-forward="true" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+        <state relative-caret-position="132">
+          <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
         </state>
       </provider>
     </entry>
