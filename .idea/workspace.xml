@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c98af4d-4c70-42f9-a56c-bbf8034452bb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+    <list default="true" id="5c98af4d-4c70-42f9-a56c-bbf8034452bb" name="Default" comment="disable auto move to first focusable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pin_entry_text_field/example/pin_entry_text_field_example.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pin_entry_text_field/lib/pin_entry_text_field.dart" beforeDir="false" afterPath="$PROJECT_DIR$/pin_entry_text_field/lib/pin_entry_text_field.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pin_entry_text_field/pin_entry_text_field.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pin_entry_text_field/pin_entry_text_field.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pin_entry_text_field/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pin_entry_text_field/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pin_entry_text_field/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pin_entry_text_field/pubspec.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,20 +16,35 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dart" value="7" />
+          <entry key="dart" value="10" />
+          <entry key="txt" value="65" />
           <entry key="yaml" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dart" value="7" />
+          <entry key="Dart" value="10" />
+          <entry key="PLAIN_TEXT" value="65" />
           <entry key="YAML" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="md" value="2" />
+          <entry key="yaml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -46,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pin_entry_text_field/lib/pin_entry_text_field.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            <state relative-caret-position="449">
+              <caret line="87" column="41" lean-forward="true" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -69,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pin_entry_text_field/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="144">
+              <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -95,8 +103,8 @@
         <option value="$PROJECT_DIR$/pin_entry_text_field/LICENSE" />
         <option value="$PROJECT_DIR$/pin_entry_text_field/CHANGELOG.md" />
         <option value="$PROJECT_DIR$/pin_entry_text_field/README.md" />
-        <option value="$PROJECT_DIR$/pin_entry_text_field/lib/pin_entry_text_field.dart" />
         <option value="$PROJECT_DIR$/pin_entry_text_field/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/pin_entry_text_field/lib/pin_entry_text_field.dart" />
       </list>
     </option>
   </component>
@@ -623,6 +631,21 @@
       <workItem from="1538561453363" duration="1177000" />
       <workItem from="1538568286753" duration="474000" />
     </task>
+    <task id="LOCAL-00001" summary="disable autoclear pin entry">
+      <created>1551433052719</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551433052719</updated>
+    </task>
+    <task id="LOCAL-00002" summary="disable auto move to first focusable">
+      <created>1551433898740</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551433898740</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -632,7 +655,7 @@
     <frame x="0" y="0" width="1366" height="641" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27272728" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27727273" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -640,7 +663,6 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Nl-Palette" order="7" />
-      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -653,6 +675,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32768363" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Flutter Performance" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -678,26 +701,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/pin_entry_text_field/lib/pin_entry_text_field.dart</url>
-          <line>33</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="disable autoclear pin entry" />
+    <MESSAGE value="disable auto move to first focusable" />
+    <option name="LAST_COMMIT_MESSAGE" value="disable auto move to first focusable" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pin_entry_text_field/test/pin_entry_text_field_test.dart" />
-    <entry file="file://$PROJECT_DIR$/pin_entry_text_field/example/pin_entry_text_field_example.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pin_entry_text_field/example/pin_entry_text_field_example.dart" />
     <entry file="file://$PROJECT_DIR$/pin_entry_text_field/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -728,15 +739,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pin_entry_text_field/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="144">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pin_entry_text_field/lib/pin_entry_text_field.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        <state relative-caret-position="449">
+          <caret line="87" column="41" lean-forward="true" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
         </state>
       </provider>
     </entry>
