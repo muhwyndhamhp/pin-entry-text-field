@@ -84,7 +84,7 @@ class PinEntryTextFieldState extends State<PinEntryTextField> {
             FocusScope.of(context).requestFocus(_focusNodes[i + 1]);
           }
           else {
-            FocusScope.of(context).requestFocus(_focusNodes[0]);
+            FocusScope.of(context).detach();
             widget.onSubmit(_pin.join());
 //            clearTextFields();
           }
