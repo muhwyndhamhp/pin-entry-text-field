@@ -2,6 +2,8 @@ library pin_entry_text_field;
 
 import 'package:flutter/material.dart';
 
+
+
 class PinEntryTextField extends StatefulWidget {
   final int fields;
   final onSubmit;
@@ -80,10 +82,11 @@ class PinEntryTextFieldState extends State<PinEntryTextField> {
           _pin[i] = str;
           if (i + 1 != widget.fields) {
             FocusScope.of(context).requestFocus(_focusNodes[i + 1]);
-          } else {
+          }
+          else {
             FocusScope.of(context).requestFocus(_focusNodes[0]);
             widget.onSubmit(_pin.join());
-            clearTextFields();
+//            clearTextFields();
           }
         },
         onSubmitted: (String str) {
